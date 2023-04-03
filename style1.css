@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.solidbackgrounds.com/images/950x350/950x350-black-solid-color-background.jpg);
+    /*https://i.gifer.com/JUFw.gif*/
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Century gothic;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.uvod {
+    text-shadow: #981fa8 2px 0 10px;
+    font-family: Century gothic;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: justify;
+}
+
+
+p {
+    padding: 20px;
+    margin: 150;
+    color: white;
+}
+
+p.prvy:first-letter {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+p.druhy:first-letter {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.text {
+    font-family: Century gothic;
+    font-size: 50px;
+    text-shadow: #e30dff 1px 0 10px;
+    text-align: left;
+    /*padding: 10%;*/
+}
+
+
+IMG {
+    align-items: center;
+}
+
+.branding img {
+    width: 50px;
+    align-items: left;
+}
+
+.active {
+    background-color: rgb(32, 2, 49, 0.60);
+    box-shadow: #300349 3px 0 20px;
+}
+
+.flex-container {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 10px;
+    flex: 48%;
+    height: 500px;
+    color: white;
+}
+
+.flex-item-right {
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 10px;
+    flex: 48%;
+    height: 500px;
+    color: white;
+}
+
+.header {
+    padding: 0px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(14, 9, 16, 0);
+    bottom: 89%;
+    position: fixed;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 15px;
+    text-decoration: none;
+    font-family: Century gothic;
+    font-size: 15, 5px;
+    float: inline-start;
+}
+
+.topnav a:hover {
+    background-color: rgb(32, 2, 49, 0.60);
+    box-shadow: #300349 3px 0 20px;
+    color: white;
+}
+
+.one {
+    color: white;
+}
+
+.prvy1 {
+    text-indent: 3%;
+    line-height: 200%;
+    font-size: 15.5px;
+    width: 1200px;
+    font-family: Century gothic;
+    text-align: left;
+    margin: 10px;
+    text-align: justify;
+}
+
+footer {
+    color: black;
+    font-family: Century gothic;
+    text-shadow: #5c0099 2px 0 20;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.hlavna {
+    color: aliceblue;
+    font-family: Century gothic;
+    font-weight: bolder;
+    text-shadow: #4620af 1px 0 10px;
+    margin: 45px;
+    font-size: large;
+    text-align: justify;
+}
+
+#pic {
+    border: 10px solid white;
+}
+
+#fly {
+    float: right;
+    margin: 12px;
+    border: 3px solid white;
+}
+
+span {
+    font-weight: bold;
+    color: purple;
+    text-shadow: #530653 1px 0 5px;
+    font-style: italic;
+}
